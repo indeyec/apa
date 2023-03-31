@@ -1,0 +1,25 @@
+{
+    "name": "indeyec/apa",
+    "description": "apa",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vladislav Shilov",
+            "email": "vlad.shilov03@mail.ru"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.4 | ^8.0"
+      },
+      "autoload": {
+        "psr-4": {
+          "Collect\\": "src/"
+        },
+        "files": [
+          "src/helpers.php"
+        ]
+      }
+     }
+     
